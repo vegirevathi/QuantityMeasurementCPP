@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\main\\QuantityMeasurement.cpp.obj -c \"D:\\bridgelabz@intellij projects\\HTMLdemo\\c++\\.vscode\\QuantityMeasurement\\main\\QuantityMeasurement.cpp\"",
+  "file": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/QuantityMeasurement.cpp"
+},
+{
+  "directory": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\test\\QuantityMeasurementTest.cpp.obj -c \"D:\\bridgelabz@intellij projects\\HTMLdemo\\c++\\.vscode\\QuantityMeasurement\\test\\QuantityMeasurementTest.cpp\"",
+  "file": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/test/QuantityMeasurementTest.cpp"
+},
+{
+  "directory": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/build/googletest/googlemock",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c \"D:\\bridgelabz@intellij projects\\HTMLdemo\\c++\\.vscode\\QuantityMeasurement\\googletest\\googlemock\\src\\gmock_main.cc\"",
+  "file": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/build/googletest/googlemock",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c \"D:\\bridgelabz@intellij projects\\HTMLdemo\\c++\\.vscode\\QuantityMeasurement\\googletest\\googlemock\\src\\gmock-all.cc\"",
+  "file": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/build/googletest/googletest",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c \"D:\\bridgelabz@intellij projects\\HTMLdemo\\c++\\.vscode\\QuantityMeasurement\\googletest\\googletest\\src\\gtest-all.cc\"",
+  "file": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/build/googletest/googletest",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c \"D:\\bridgelabz@intellij projects\\HTMLdemo\\c++\\.vscode\\QuantityMeasurement\\googletest\\googletest\\src\\gtest_main.cc\"",
+  "file": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/googletest/googletest/src/gtest_main.cc"
+}
+]
