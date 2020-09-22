@@ -239,6 +239,33 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+main/Feet.obj: main/Feet.cpp.obj
+
+.PHONY : main/Feet.obj
+
+# target to build an object file
+main/Feet.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Feet.cpp.obj
+.PHONY : main/Feet.cpp.obj
+
+main/Feet.i: main/Feet.cpp.i
+
+.PHONY : main/Feet.i
+
+# target to preprocess a source file
+main/Feet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Feet.cpp.i
+.PHONY : main/Feet.cpp.i
+
+main/Feet.s: main/Feet.cpp.s
+
+.PHONY : main/Feet.s
+
+# target to generate assembly for a file
+main/Feet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Feet.cpp.s
+.PHONY : main/Feet.cpp.s
+
 main/QuantityMeasurement.obj: main/QuantityMeasurement.cpp.obj
 
 .PHONY : main/QuantityMeasurement.obj
@@ -310,6 +337,9 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... main/Feet.obj
+	@echo ... main/Feet.i
+	@echo ... main/Feet.s
 	@echo ... main/QuantityMeasurement.obj
 	@echo ... main/QuantityMeasurement.i
 	@echo ... main/QuantityMeasurement.s

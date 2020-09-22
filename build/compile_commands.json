@@ -10,6 +10,11 @@
   "file": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/test/QuantityMeasurementTest.cpp"
 },
 {
+  "directory": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/executeTests.dir/includes_CXX.rsp -g -o CMakeFiles\\executeTests.dir\\main\\Feet.cpp.obj -c \"D:\\bridgelabz@intellij projects\\HTMLdemo\\c++\\.vscode\\QuantityMeasurement\\main\\Feet.cpp\"",
+  "file": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/Feet.cpp"
+},
+{
   "directory": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/build/googletest/googlemock",
   "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c \"D:\\bridgelabz@intellij projects\\HTMLdemo\\c++\\.vscode\\QuantityMeasurement\\googletest\\googlemock\\src\\gmock_main.cc\"",
   "file": "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/googletest/googlemock/src/gmock_main.cc"
