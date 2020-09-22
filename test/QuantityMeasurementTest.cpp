@@ -45,6 +45,12 @@ TEST(InchToInchCompare, given_zero_inch_and_zero_inch_should_return_equal)
         ASSERT_EQ(inch1, inch2);
     }
 
+TEST(InchToInchCompare, given_zero_inch_and_null_value_should_return_not_equal)
+    {
+        Inch inch1(0);
+        ASSERT_FALSE(inch1 == nullptr);
+    }
+
 int main(int argc, char **argv) 
     {
     testing::InitGoogleTest(&argc, argv);

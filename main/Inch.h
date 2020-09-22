@@ -7,4 +7,6 @@ class Inch {
     Inch(double);
 
     bool operator==(Inch) const;
+
+    bool operator==(Inch *) const;
 };
