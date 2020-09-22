@@ -266,6 +266,33 @@ main/Feet.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Feet.cpp.s
 .PHONY : main/Feet.cpp.s
 
+main/Inch.obj: main/Inch.cpp.obj
+
+.PHONY : main/Inch.obj
+
+# target to build an object file
+main/Inch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Inch.cpp.obj
+.PHONY : main/Inch.cpp.obj
+
+main/Inch.i: main/Inch.cpp.i
+
+.PHONY : main/Inch.i
+
+# target to preprocess a source file
+main/Inch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Inch.cpp.i
+.PHONY : main/Inch.cpp.i
+
+main/Inch.s: main/Inch.cpp.s
+
+.PHONY : main/Inch.s
+
+# target to generate assembly for a file
+main/Inch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Inch.cpp.s
+.PHONY : main/Inch.cpp.s
+
 main/QuantityMeasurement.obj: main/QuantityMeasurement.cpp.obj
 
 .PHONY : main/QuantityMeasurement.obj
@@ -340,6 +367,9 @@ help:
 	@echo ... main/Feet.obj
 	@echo ... main/Feet.i
 	@echo ... main/Feet.s
+	@echo ... main/Inch.obj
+	@echo ... main/Inch.i
+	@echo ... main/Inch.s
 	@echo ... main/QuantityMeasurement.obj
 	@echo ... main/QuantityMeasurement.i
 	@echo ... main/QuantityMeasurement.s

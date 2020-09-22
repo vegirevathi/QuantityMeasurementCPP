@@ -330,6 +330,10 @@ D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/Fe
 iostream
 -
 
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/Inch.h
+iostream
+-
+
 D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/QuantityMeasurement.h
 iostream
 -
@@ -341,4 +345,6 @@ gtest/gtest.h
 D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/QuantityMeasurement.h
 ../main/Feet.h
 D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/Feet.h
+../main/Inch.h
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/Inch.h
 

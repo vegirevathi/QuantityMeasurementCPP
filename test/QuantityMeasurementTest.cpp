@@ -1,6 +1,7 @@
 #include <gtest/gtest.h>
 #include "../main/QuantityMeasurement.h"
 #include "../main/Feet.h"
+#include "../main/Inch.h"
  
 TEST(feetToInchCompare, given_one_feet_and_twelve_inch_should_return_equal) 
     {
@@ -35,6 +36,13 @@ TEST(feetTofeetCompare, given_zero_feet_and_zero_feet_different_types_should_ret
         Feet feet1(0);
         double feet2 = 0;
         ASSERT_TRUE(feet1 == feet2);
+    }
+
+TEST(InchToInchCompare, given_zero_inch_and_zero_inch_should_return_equal)
+    {
+        Inch inch1(0);
+        Inch inch2(0);
+        ASSERT_EQ(inch1, inch2);
     }
 
 int main(int argc, char **argv) 
