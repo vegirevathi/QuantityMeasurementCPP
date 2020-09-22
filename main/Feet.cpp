@@ -14,5 +14,11 @@ bool Feet::operator==(Feet *that) const
     if(that == nullptr) {
         return false;
     }
-    return (this->value == that->value);
+    if(that == this) {
+        return true;
+    }
+    if(that->value == this->value) {
+        return true;
+    }
+   return false;
 }

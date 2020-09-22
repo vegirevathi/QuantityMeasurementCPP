@@ -9,4 +9,5 @@ class Feet {
     bool operator==(Feet) const;
 
     bool operator==(Feet *) const;
+
 };

@@ -22,7 +22,21 @@ TEST(feetTofeetCompare, given_zero_feet_and_null_value_should_return_not_equal)
         Feet feet1(0);
         ASSERT_FALSE(feet1 == nullptr);
     }
+
+TEST(feetTofeetCompare, given_zero_feet_and_one_feet_should_return_not_equal)
+    {
+        Feet feet1(0);
+        Feet feet2(1);
+        ASSERT_FALSE(feet1 == feet2);
+    }
    
+TEST(feetTofeetCompare, given_zero_feet_and_zero_feet_different_types_should_return_equal)
+    {
+        Feet feet1(0);
+        double feet2 = 0;
+        ASSERT_TRUE(feet1 == feet2);
+    }
+
 int main(int argc, char **argv) 
     {
     testing::InitGoogleTest(&argc, argv);
