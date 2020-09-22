@@ -16,6 +16,12 @@ TEST(feetTofeetCompare, given_zero_feet_and_zero_feet_should_return_equal)
         Feet feet2(0);
         ASSERT_EQ(feet1, feet2);
     }
+
+TEST(feetTofeetCompare, given_zero_feet_and_null_value_should_return_not_equal)
+    {
+        Feet feet1(0);
+        ASSERT_FALSE(feet1 == nullptr);
+    }
    
 int main(int argc, char **argv) 
     {
