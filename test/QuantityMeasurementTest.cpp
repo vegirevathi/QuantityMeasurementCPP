@@ -58,6 +58,13 @@ TEST(InchToInchCompare, given_zero_inch_and_zero_inch_different_types_should_ret
         ASSERT_TRUE(feet1 == feet2);
     }
 
+TEST(InchToInchCompare, given_zero_inch_and_one_inch_should_return_not_equal)
+    {
+        Inch inch1(0);
+        Inch inch2(1);
+        ASSERT_FALSE(inch1 == inch2);
+    }
+
 int main(int argc, char **argv) 
     {
     testing::InitGoogleTest(&argc, argv);
