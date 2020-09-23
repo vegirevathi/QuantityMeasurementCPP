@@ -178,11 +178,19 @@ TEST(LengthsComparison, given_two_inch_and_two_and_half_centimeters_should_equal
         ASSERT_EQ(result1, result2);
     }
 
-TEST(LengthsComparison, given_one_gallon_and_3dot78_litres_should_return_equal) 
+TEST(VolumeComparison, given_one_gallon_and_3dot78_litres_should_return_equal) 
     {
         QuantityMeasurement quantityMeasurement;
         double result1 = quantityMeasurement.convertToBaseValue(1.0, UnitValue::GALLON);
         double result2 = quantityMeasurement.convertToBaseValue(3.78, UnitValue::LITRE);
+        ASSERT_EQ(result1, result2);
+    }
+
+TEST(VolumeComparison, given_one_litre_and_1000_millilitres_should_return_equal) 
+    {
+        QuantityMeasurement quantityMeasurement;
+        double result1 = quantityMeasurement.convertToBaseValue(1.0, UnitValue::LITRE);
+        double result2 = quantityMeasurement.convertToBaseValue(1000, UnitValue::MILLILITRE);
         ASSERT_EQ(result1, result2);
     }
 
