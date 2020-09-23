@@ -12,4 +12,6 @@ class QuantityMeasurement
     double CENTIMETER = 0.4;
 
     double convertToBase(double, double);
+
+    double addingTwoUnits(double, double);
 };
