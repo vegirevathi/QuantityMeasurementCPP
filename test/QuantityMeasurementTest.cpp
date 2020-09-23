@@ -156,6 +156,16 @@ TEST(LengthsComparison, given_one_feet_and_one_feet_should_equal_twentyfour_inch
         ASSERT_EQ(result1, result2);
     }
 
+TEST(LengthsComparison, given_two_inch_and_two_and_half_centimeters_should_equal_three_inches) 
+    {
+        QuantityMeasurement quantityMeasurement;
+        double value1 = quantityMeasurement.convertToBase(2.0, quantityMeasurement.INCH);
+        double value2 = quantityMeasurement.convertToBase(2.5, quantityMeasurement.CENTIMETER);
+        double result1 = quantityMeasurement.addingTwoUnits(value1, value2);
+        double result2 = quantityMeasurement.convertToBase(3.0, quantityMeasurement.INCH);
+        ASSERT_EQ(result1, result2);
+    }
+
 int main(int argc, char **argv) 
     {
     testing::InitGoogleTest(&argc, argv);
