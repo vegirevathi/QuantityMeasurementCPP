@@ -212,6 +212,14 @@ TEST(WeightComparison, given_one_kilogram_and_1000_grams_should_return_equal)
         ASSERT_EQ(result1, result2);
     }
 
+TEST(WeightComparison, given_one_tonne_and_1000_kilograms_should_return_equal) 
+    {
+        QuantityMeasurement quantityMeasurement;
+        double result1 = quantityMeasurement.convertToBaseValue(1.0, UnitValue::TONNE);
+        double result2 = quantityMeasurement.convertToBaseValue(1000, UnitValue::KILOGRAM);
+        ASSERT_EQ(result1, result2);
+    }
+
 int main(int argc, char **argv) 
     {
     testing::InitGoogleTest(&argc, argv);
