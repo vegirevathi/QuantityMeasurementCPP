@@ -20,6 +20,8 @@ class UnitValue
     static const UnitValue GRAM;
     static const UnitValue KILOGRAM;
     static const UnitValue TONNE;
+    static const UnitValue CELSIUS;
+    static const UnitValue FAHRENHEIT;
 
     UnitType unitType;
 

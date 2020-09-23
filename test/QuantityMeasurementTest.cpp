@@ -230,6 +230,13 @@ TEST(WeightComparison, given_one_tonne_and_1000_grams_should_equal_1001_kilogram
         ASSERT_EQ(result1, result2);
     }
 
+TEST(TemperatureComparison, given_212_fahrenheit_and_100_celsius_should_return_equal) 
+    {
+        QuantityMeasurement quantityMeasurement;
+        double result1 = quantityMeasurement.convertToBaseValue(212, UnitValue::FAHRENHEIT);
+        ASSERT_EQ(quantityMeasurement.temperatureConversion(100, UnitValue::CELSIUS, 32), result1);
+    }
+
 int main(int argc, char **argv) 
     {
     testing::InitGoogleTest(&argc, argv);

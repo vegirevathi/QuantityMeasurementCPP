@@ -11,4 +11,6 @@ class QuantityMeasurement
  
     double addingTwoUnits(double, double);
 
+    double temperatureConversion(double, UnitValue, double);
+
 };
