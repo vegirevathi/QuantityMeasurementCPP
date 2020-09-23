@@ -136,6 +136,16 @@ TEST(LengthsComparison, given_two_inch_and_two_inch_should_equal_four_inches)
         ASSERT_EQ(result1, result2);
     }
 
+TEST(LengthsComparison, given_one_feet_and_two_inches_should_equal_fourteen_inches) 
+    {
+        QuantityMeasurement quantityMeasurement;
+        double value1 = quantityMeasurement.convertToBase(1.0, quantityMeasurement.FEET);
+        double value2 = quantityMeasurement.convertToBase(2.0, quantityMeasurement.INCH);
+        double result1 = quantityMeasurement.addingTwoUnits(value1, value2);
+        double result2 = quantityMeasurement.convertToBase(14.0, quantityMeasurement.INCH);
+        ASSERT_EQ(result1, result2);
+    }
+
 int main(int argc, char **argv) 
     {
     testing::InitGoogleTest(&argc, argv);
