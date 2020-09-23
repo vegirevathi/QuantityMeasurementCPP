@@ -86,6 +86,14 @@ TEST(feetToInchCompare, given_three_feet_and_one_yard_should_return_equal)
         ASSERT_EQ(result1, result2);
     }
 
+TEST(feetToInchCompare, given_one_feet_and_one_yard_should_return_not_equal) 
+    {
+        QuantityMeasurement quantityMeasurement;
+        double result1 = quantityMeasurement.convertToBase(1.0, quantityMeasurement.FEET);
+        double result2 = quantityMeasurement.convertToBase(1.0, quantityMeasurement.YARD);
+        ASSERT_NE(result1, result2);
+    }
+
 
 int main(int argc, char **argv) 
     {
