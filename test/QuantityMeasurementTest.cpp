@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
-#include "../main/QuantityMeasurement.h"
-#include "../main/Length.h"
+#include "../main/controller/QuantityMeasurement.h"
+#include "../main/model/Length.h"
  
 TEST(feetToInchCompare, given_one_feet_and_twelve_inch_should_return_equal) 
     {

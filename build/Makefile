@@ -239,59 +239,59 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-main/Length.obj: main/Length.cpp.obj
+main/controller/QuantityMeasurement.obj: main/controller/QuantityMeasurement.cpp.obj
 
-.PHONY : main/Length.obj
-
-# target to build an object file
-main/Length.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Length.cpp.obj
-.PHONY : main/Length.cpp.obj
-
-main/Length.i: main/Length.cpp.i
-
-.PHONY : main/Length.i
-
-# target to preprocess a source file
-main/Length.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Length.cpp.i
-.PHONY : main/Length.cpp.i
-
-main/Length.s: main/Length.cpp.s
-
-.PHONY : main/Length.s
-
-# target to generate assembly for a file
-main/Length.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Length.cpp.s
-.PHONY : main/Length.cpp.s
-
-main/QuantityMeasurement.obj: main/QuantityMeasurement.cpp.obj
-
-.PHONY : main/QuantityMeasurement.obj
+.PHONY : main/controller/QuantityMeasurement.obj
 
 # target to build an object file
-main/QuantityMeasurement.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/QuantityMeasurement.cpp.obj
-.PHONY : main/QuantityMeasurement.cpp.obj
+main/controller/QuantityMeasurement.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/controller/QuantityMeasurement.cpp.obj
+.PHONY : main/controller/QuantityMeasurement.cpp.obj
 
-main/QuantityMeasurement.i: main/QuantityMeasurement.cpp.i
+main/controller/QuantityMeasurement.i: main/controller/QuantityMeasurement.cpp.i
 
-.PHONY : main/QuantityMeasurement.i
+.PHONY : main/controller/QuantityMeasurement.i
 
 # target to preprocess a source file
-main/QuantityMeasurement.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/QuantityMeasurement.cpp.i
-.PHONY : main/QuantityMeasurement.cpp.i
+main/controller/QuantityMeasurement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/controller/QuantityMeasurement.cpp.i
+.PHONY : main/controller/QuantityMeasurement.cpp.i
 
-main/QuantityMeasurement.s: main/QuantityMeasurement.cpp.s
+main/controller/QuantityMeasurement.s: main/controller/QuantityMeasurement.cpp.s
 
-.PHONY : main/QuantityMeasurement.s
+.PHONY : main/controller/QuantityMeasurement.s
 
 # target to generate assembly for a file
-main/QuantityMeasurement.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/QuantityMeasurement.cpp.s
-.PHONY : main/QuantityMeasurement.cpp.s
+main/controller/QuantityMeasurement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/controller/QuantityMeasurement.cpp.s
+.PHONY : main/controller/QuantityMeasurement.cpp.s
+
+main/model/Length.obj: main/model/Length.cpp.obj
+
+.PHONY : main/model/Length.obj
+
+# target to build an object file
+main/model/Length.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/model/Length.cpp.obj
+.PHONY : main/model/Length.cpp.obj
+
+main/model/Length.i: main/model/Length.cpp.i
+
+.PHONY : main/model/Length.i
+
+# target to preprocess a source file
+main/model/Length.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/model/Length.cpp.i
+.PHONY : main/model/Length.cpp.i
+
+main/model/Length.s: main/model/Length.cpp.s
+
+.PHONY : main/model/Length.s
+
+# target to generate assembly for a file
+main/model/Length.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/model/Length.cpp.s
+.PHONY : main/model/Length.cpp.s
 
 test/QuantityMeasurementTest.obj: test/QuantityMeasurementTest.cpp.obj
 
@@ -337,12 +337,12 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... main/Length.obj
-	@echo ... main/Length.i
-	@echo ... main/Length.s
-	@echo ... main/QuantityMeasurement.obj
-	@echo ... main/QuantityMeasurement.i
-	@echo ... main/QuantityMeasurement.s
+	@echo ... main/controller/QuantityMeasurement.obj
+	@echo ... main/controller/QuantityMeasurement.i
+	@echo ... main/controller/QuantityMeasurement.s
+	@echo ... main/model/Length.obj
+	@echo ... main/model/Length.i
+	@echo ... main/model/Length.s
 	@echo ... test/QuantityMeasurementTest.obj
 	@echo ... test/QuantityMeasurementTest.i
 	@echo ... test/QuantityMeasurementTest.s

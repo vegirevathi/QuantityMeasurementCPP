@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/executeTests.dir/main/Length.cpp.obj"
-  "CMakeFiles/executeTests.dir/main/QuantityMeasurement.cpp.obj"
+  "CMakeFiles/executeTests.dir/main/controller/QuantityMeasurement.cpp.obj"
+  "CMakeFiles/executeTests.dir/main/model/Length.cpp.obj"
   "CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj"
   "executeTests.exe"
   "executeTests.exe.manifest"
