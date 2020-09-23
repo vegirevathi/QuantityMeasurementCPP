@@ -239,60 +239,6 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-main/Feet.obj: main/Feet.cpp.obj
-
-.PHONY : main/Feet.obj
-
-# target to build an object file
-main/Feet.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Feet.cpp.obj
-.PHONY : main/Feet.cpp.obj
-
-main/Feet.i: main/Feet.cpp.i
-
-.PHONY : main/Feet.i
-
-# target to preprocess a source file
-main/Feet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Feet.cpp.i
-.PHONY : main/Feet.cpp.i
-
-main/Feet.s: main/Feet.cpp.s
-
-.PHONY : main/Feet.s
-
-# target to generate assembly for a file
-main/Feet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Feet.cpp.s
-.PHONY : main/Feet.cpp.s
-
-main/Inch.obj: main/Inch.cpp.obj
-
-.PHONY : main/Inch.obj
-
-# target to build an object file
-main/Inch.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Inch.cpp.obj
-.PHONY : main/Inch.cpp.obj
-
-main/Inch.i: main/Inch.cpp.i
-
-.PHONY : main/Inch.i
-
-# target to preprocess a source file
-main/Inch.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Inch.cpp.i
-.PHONY : main/Inch.cpp.i
-
-main/Inch.s: main/Inch.cpp.s
-
-.PHONY : main/Inch.s
-
-# target to generate assembly for a file
-main/Inch.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/Inch.cpp.s
-.PHONY : main/Inch.cpp.s
-
 main/Length.obj: main/Length.cpp.obj
 
 .PHONY : main/Length.obj
@@ -391,12 +337,6 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... main/Feet.obj
-	@echo ... main/Feet.i
-	@echo ... main/Feet.s
-	@echo ... main/Inch.obj
-	@echo ... main/Inch.i
-	@echo ... main/Inch.s
 	@echo ... main/Length.obj
 	@echo ... main/Length.i
 	@echo ... main/Length.s
