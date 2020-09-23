@@ -184,15 +184,24 @@ TEST(VolumeComparison, given_one_litre_and_1000_millilitres_should_return_equal)
         ASSERT_EQ(result1, result2);
     }
 
-TEST(LengthsComparison, given_one_gallon_and_3dot78_litres_should_equal_7dot57_litres) 
+TEST(VolumeComparison, given_one_gallon_and_3dot78_litres_should_equal_7dot57_litres) 
     {
         QuantityMeasurement quantityMeasurement;
         double value1 = quantityMeasurement.convertToBaseValue(1.0, UnitValue::GALLON);
         double value2 = quantityMeasurement.convertToBaseValue(3.78, UnitValue::LITRE);
         double result1 = quantityMeasurement.addingTwoUnits(value1, value2);
         double result2 = quantityMeasurement.convertToBaseValue(7.57, UnitValue::LITRE);
-       // ASSERT_EQ(result1, result2);
         ASSERT_NEAR(result1, result2, 10);
+    }
+
+TEST(VolumeComparison, given_one_litre_and_1000_millilitres_should_equal_2_litres) 
+    {
+        QuantityMeasurement quantityMeasurement;
+        double value1 = quantityMeasurement.convertToBaseValue(1.0, UnitValue::LITRE);
+        double value2 = quantityMeasurement.convertToBaseValue(1000, UnitValue::MILLILITRE);
+        double result1 = quantityMeasurement.addingTwoUnits(value1, value2);
+        double result2 = quantityMeasurement.convertToBaseValue(2, UnitValue::LITRE);
+        ASSERT_EQ(result1, result2);
     }
 
 int main(int argc, char **argv) 
