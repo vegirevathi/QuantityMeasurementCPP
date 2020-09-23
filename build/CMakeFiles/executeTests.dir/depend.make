@@ -3,9 +3,17 @@
 
 CMakeFiles/executeTests.dir/main/controller/QuantityMeasurement.cpp.obj: ../main/controller/QuantityMeasurement.cpp
 CMakeFiles/executeTests.dir/main/controller/QuantityMeasurement.cpp.obj: ../main/controller/QuantityMeasurement.h
+CMakeFiles/executeTests.dir/main/controller/QuantityMeasurement.cpp.obj: ../main/model/UnitType.h
+CMakeFiles/executeTests.dir/main/controller/QuantityMeasurement.cpp.obj: ../main/model/UnitValue.h
 
 CMakeFiles/executeTests.dir/main/model/Length.cpp.obj: ../main/model/Length.cpp
 CMakeFiles/executeTests.dir/main/model/Length.cpp.obj: ../main/model/Length.h
+CMakeFiles/executeTests.dir/main/model/Length.cpp.obj: ../main/model/UnitType.h
+CMakeFiles/executeTests.dir/main/model/Length.cpp.obj: ../main/model/UnitValue.h
+
+CMakeFiles/executeTests.dir/main/model/UnitValue.cpp.obj: ../main/model/UnitType.h
+CMakeFiles/executeTests.dir/main/model/UnitValue.cpp.obj: ../main/model/UnitValue.cpp
+CMakeFiles/executeTests.dir/main/model/UnitValue.cpp.obj: ../main/model/UnitValue.h
 
 CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../googletest/googletest/include/gtest/gtest-death-test.h
 CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../googletest/googletest/include/gtest/gtest-matchers.h
@@ -29,5 +37,7 @@ CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../googletest/
 CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../googletest/googletest/include/gtest/internal/gtest-type-util.h
 CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../main/controller/QuantityMeasurement.h
 CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../main/model/Length.h
+CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../main/model/UnitType.h
+CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../main/model/UnitValue.h
 CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../test/QuantityMeasurementTest.cpp
 

@@ -293,6 +293,33 @@ main/model/Length.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/model/Length.cpp.s
 .PHONY : main/model/Length.cpp.s
 
+main/model/UnitValue.obj: main/model/UnitValue.cpp.obj
+
+.PHONY : main/model/UnitValue.obj
+
+# target to build an object file
+main/model/UnitValue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/model/UnitValue.cpp.obj
+.PHONY : main/model/UnitValue.cpp.obj
+
+main/model/UnitValue.i: main/model/UnitValue.cpp.i
+
+.PHONY : main/model/UnitValue.i
+
+# target to preprocess a source file
+main/model/UnitValue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/model/UnitValue.cpp.i
+.PHONY : main/model/UnitValue.cpp.i
+
+main/model/UnitValue.s: main/model/UnitValue.cpp.s
+
+.PHONY : main/model/UnitValue.s
+
+# target to generate assembly for a file
+main/model/UnitValue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\executeTests.dir\build.make CMakeFiles/executeTests.dir/main/model/UnitValue.cpp.s
+.PHONY : main/model/UnitValue.cpp.s
+
 test/QuantityMeasurementTest.obj: test/QuantityMeasurementTest.cpp.obj
 
 .PHONY : test/QuantityMeasurementTest.obj
@@ -343,6 +370,9 @@ help:
 	@echo ... main/model/Length.obj
 	@echo ... main/model/Length.i
 	@echo ... main/model/Length.s
+	@echo ... main/model/UnitValue.obj
+	@echo ... main/model/UnitValue.i
+	@echo ... main/model/UnitValue.s
 	@echo ... test/QuantityMeasurementTest.obj
 	@echo ... test/QuantityMeasurementTest.i
 	@echo ... test/QuantityMeasurementTest.s

@@ -1,4 +1,5 @@
 #include <iostream>
+#include "UnitValue.h"
 
 class Length {
 
@@ -7,11 +8,15 @@ class Length {
 
     enum class UnitType {INCHES, FEETS};
 
-    int INCHES = 1;
-    int FEETS = 2;
+    int INCHES;
+    int FEETS;
 
     double value;
     int units;
+
+    UnitValue unitValue;
+
+    Length(double, UnitValue);
 
     Length(double, int);
 

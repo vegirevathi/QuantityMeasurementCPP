@@ -326,13 +326,37 @@ cxxabi.h
 acxx_demangle.h
 -
 
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/controller/QuantityMeasurement.cpp
+../controller/QuantityMeasurement.h
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/controller/QuantityMeasurement.h
+
 D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/controller/QuantityMeasurement.h
 iostream
 -
+../model/UnitValue.h
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/UnitValue.h
+
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/Length.cpp
+../model/Length.h
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/Length.h
 
 D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/Length.h
 iostream
 -
+UnitValue.h
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/UnitValue.h
+
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/UnitType.h
+
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/UnitValue.cpp
+../model/UnitValue.h
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/UnitValue.h
+
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/UnitValue.h
+iostream
+-
+../model/UnitType.h
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/UnitType.h
 
 D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/test/QuantityMeasurementTest.cpp
 gtest/gtest.h
@@ -341,4 +365,6 @@ gtest/gtest.h
 D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/controller/QuantityMeasurement.h
 ../main/model/Length.h
 D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/Length.h
+../main/model/UnitValue.h
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/UnitValue.h
 

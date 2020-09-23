@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/controller/QuantityMeasurement.cpp" "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/build/CMakeFiles/executeTests.dir/main/controller/QuantityMeasurement.cpp.obj"
   "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/Length.cpp" "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/build/CMakeFiles/executeTests.dir/main/model/Length.cpp.obj"
+  "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/model/UnitValue.cpp" "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/build/CMakeFiles/executeTests.dir/main/model/UnitValue.cpp.obj"
   "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/test/QuantityMeasurementTest.cpp" "D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/build/CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

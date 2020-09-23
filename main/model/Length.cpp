@@ -7,6 +7,11 @@
         this->units = units;
     }
 
+    Length::Length(double value, UnitValue unitValue) {
+        this->value = value;
+        this->unitValue = unitValue;
+    }
+
     bool Length::operator==(Length that) const
     {
         if (this->value == that.value) {

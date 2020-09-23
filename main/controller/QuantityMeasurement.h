@@ -1,17 +1,14 @@
 #include <iostream>
+#include "../model/UnitValue.h"
 
 class QuantityMeasurement
 {
     public:
 
-    enum class QuantityBaseValue {INCH, FEET, YARD, CENTIMETER};
+    UnitValue unitValue;
 
-    double INCH = 1;
-    double FEET = 12;
-    double YARD = 36;
-    double CENTIMETER = 0.4;
-
-    double convertToBase(double, double);
-
+    double convertToBaseValue(double, UnitValue);
+ 
     double addingTwoUnits(double, double);
+
 };
