@@ -7,6 +7,9 @@ CMakeFiles/executeTests.dir/main/Feet.cpp.obj: ../main/Feet.h
 CMakeFiles/executeTests.dir/main/Inch.cpp.obj: ../main/Inch.cpp
 CMakeFiles/executeTests.dir/main/Inch.cpp.obj: ../main/Inch.h
 
+CMakeFiles/executeTests.dir/main/Length.cpp.obj: ../main/Length.cpp
+CMakeFiles/executeTests.dir/main/Length.cpp.obj: ../main/Length.h
+
 CMakeFiles/executeTests.dir/main/QuantityMeasurement.cpp.obj: ../main/QuantityMeasurement.cpp
 CMakeFiles/executeTests.dir/main/QuantityMeasurement.cpp.obj: ../main/QuantityMeasurement.h
 
@@ -30,8 +33,7 @@ CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../googletest/
 CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../googletest/googletest/include/gtest/internal/gtest-port.h
 CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../googletest/googletest/include/gtest/internal/gtest-string.h
 CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../googletest/googletest/include/gtest/internal/gtest-type-util.h
-CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../main/Feet.h
-CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../main/Inch.h
+CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../main/Length.h
 CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../main/QuantityMeasurement.h
 CMakeFiles/executeTests.dir/test/QuantityMeasurementTest.cpp.obj: ../test/QuantityMeasurementTest.cpp
 

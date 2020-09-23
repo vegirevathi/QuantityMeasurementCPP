@@ -1,6 +1,6 @@
 #include "QuantityMeasurement.h"
 
-double QuantityMeasurement::feetToInchConverter(double feet)
+double QuantityMeasurement::convertToBase(double value, double unit)
 {
-    return (feet * 12);
+    return (unit * value);
 }

@@ -326,11 +326,7 @@ cxxabi.h
 acxx_demangle.h
 -
 
-D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/Feet.h
-iostream
--
-
-D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/Inch.h
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/Length.h
 iostream
 -
 
@@ -343,8 +339,6 @@ gtest/gtest.h
 -
 ../main/QuantityMeasurement.h
 D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/QuantityMeasurement.h
-../main/Feet.h
-D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/Feet.h
-../main/Inch.h
-D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/Inch.h
+../main/Length.h
+D:/bridgelabz@intellij projects/HTMLdemo/c++/.vscode/QuantityMeasurement/main/Length.h
 
