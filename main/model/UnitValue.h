@@ -17,6 +17,9 @@ class UnitValue
     static const UnitValue GALLON;
     static const UnitValue LITRE;
     static const UnitValue MILLILITRE;
+    static const UnitValue GRAM;
+    static const UnitValue KILOGRAM;
+    static const UnitValue TONNE;
 
     UnitType unitType;
 
