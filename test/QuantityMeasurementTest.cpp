@@ -97,8 +97,24 @@ TEST(LengthsComparison, given_one_inch_and_one_yard_should_return_not_equal)
 TEST(LengthsComparison, given_one_yard_and_thirtySix_inches_should_return_equal) 
     {
         QuantityMeasurement quantityMeasurement;
+        double result1 = quantityMeasurement.convertToBase(1.0, quantityMeasurement.YARD);
+        double result2 = quantityMeasurement.convertToBase(36.0, quantityMeasurement.INCH);
+        ASSERT_EQ(result1, result2);
+    }
+
+TEST(LengthsComparison, given_thirtySix_inches_and_one_yard_should_return_equal) 
+    {
+        QuantityMeasurement quantityMeasurement;
         double result1 = quantityMeasurement.convertToBase(36.0, quantityMeasurement.INCH);
         double result2 = quantityMeasurement.convertToBase(1.0, quantityMeasurement.YARD);
+        ASSERT_EQ(result1, result2);
+    }
+
+TEST(LengthsComparison, given_one_yard_and_three_feet_should_return_equal) 
+    {
+        QuantityMeasurement quantityMeasurement;
+        double result1 = quantityMeasurement.convertToBase(1.0, quantityMeasurement.YARD);
+        double result2 = quantityMeasurement.convertToBase(3.0, quantityMeasurement.FEET);
         ASSERT_EQ(result1, result2);
     }
 
