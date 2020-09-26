@@ -19,3 +19,4 @@ const UnitValue UnitValue::KILOGRAM(1, UnitType::WEIGHT);
 const UnitValue UnitValue::TONNE(1000, UnitType::WEIGHT);
 const UnitValue UnitValue::CELSIUS(1.8, UnitType::TEMPERATURE);
 const UnitValue UnitValue::FAHRENHEIT(1, UnitType::TEMPERATURE);
+

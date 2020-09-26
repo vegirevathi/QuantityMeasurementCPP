@@ -1,6 +1,5 @@
 #include <gtest/gtest.h>
 #include "../main/controller/QuantityMeasurement.h"
-#include "../main/model/Length.h"
 #include "../main/model/UnitValue.h"
  
 TEST(LengthsComparison, given_one_feet_and_twelve_inch_should_return_equal) 
@@ -8,68 +7,61 @@ TEST(LengthsComparison, given_one_feet_and_twelve_inch_should_return_equal)
         QuantityMeasurement quantityMeasurement;
         double result1 = quantityMeasurement.convertToBaseValue(1.0, UnitValue::FEET);
         double result2 = quantityMeasurement.convertToBaseValue(12.0, UnitValue::INCH);
-        ASSERT_EQ(result1, result2);
+        ASSERT_TRUE(result1 == result2);
     }
 
 TEST(LengthsComparison, given_zero_feet_and_zero_feet_should_return_equal)
-    {
-        Length length;
-        Length length1(0.0, length.FEETS);
-        Length length2(0.0, length.FEETS);
-        ASSERT_TRUE(length1 == length2);   
-    
+    {   
+        QuantityMeasurement quantityMeasurement1(0.0, UnitValue::FEET);
+        QuantityMeasurement quantityMeasurement2(0.0, UnitValue::FEET);
+        ASSERT_TRUE(quantityMeasurement1 == quantityMeasurement2);  
     }
 
 TEST(LengthsComparison, given_zero_feet_and_null_value_should_return_not_equal)
     {
-        Length length;
-        Length length1(0.0, length.FEETS);
-        ASSERT_FALSE(length1 == nullptr);
+        QuantityMeasurement quantityMeasurement1(0.0, UnitValue::FEET);
+        ASSERT_FALSE(quantityMeasurement1 == nullptr);
     }
 
 TEST(LengthsComparison, given_zero_feet_and_one_feet_should_return_not_equal)
     {
-        Length length;
-        Length length1(0.0, length.FEETS);
-        Length length2(1.0, length.FEETS);
-        ASSERT_FALSE(length1 == length2);
+        QuantityMeasurement quantityMeasurement1(0.0, UnitValue::FEET);
+        QuantityMeasurement quantityMeasurement2(1.0, UnitValue::FEET);
+        ASSERT_FALSE(quantityMeasurement1 == quantityMeasurement2);
     }
    
-TEST(LengthsComparison, given_zero_feet_and_zero_feet_different_references_should_return_not_equal)
+TEST(LengthsComparison, given_zero_feet_and_zero_feet_of_same_reference_should_return_equal)
     {
-        Length length1(0.0, length1.FEETS);
-        Length length2(0.0, length2.FEETS);
-        ASSERT_FALSE(length1 == length2);
+        QuantityMeasurement *zero_feet_first_ref = new QuantityMeasurement(0.0, UnitValue::FEET);
+        QuantityMeasurement *zero_feet_second_ref = zero_feet_first_ref;
+        ASSERT_EQ(*zero_feet_first_ref, *zero_feet_second_ref);
     }
 
 TEST(LengthsComparison, given_zero_inch_and_zero_inch_should_return_equal)
-    {
-        Length length;
-        Length length1(0.0, length.INCHES);
-        Length length2(0.0, length.INCHES);
-        ASSERT_TRUE(length1 == length2); 
+    { 
+        QuantityMeasurement quantityMeasurement1(0.0, UnitValue::INCH);
+        QuantityMeasurement quantityMeasurement2(0.0, UnitValue::INCH);
+        ASSERT_TRUE(quantityMeasurement1 == quantityMeasurement2);
     }
 
 TEST(LengthsComparison, given_zero_inch_and_null_value_should_return_not_equal)
     {
-        Length length;
-        Length length1(0.0, length.INCHES);
-        ASSERT_FALSE(length1 == nullptr);
+        QuantityMeasurement quantityMeasurement1(0.0, UnitValue::INCH);
+        ASSERT_FALSE(quantityMeasurement1 == nullptr);
     }
 
-TEST(LengthsComparison, given_zero_inch_and_zero_inch_different_references_should_return_not_equal)
+TEST(LengthsComparison, given_zero_inch_and_zero_inch_of_same_references_should_return_equal)
     {
-        Length length1(0.0, length1.INCHES);
-        Length length2(0.0, length2.INCHES);
-        ASSERT_FALSE(length1 == length2);
+        QuantityMeasurement *zero_inch_first_ref = new QuantityMeasurement(0.0, UnitValue::INCH);
+        QuantityMeasurement *zero_inch_second_ref = zero_inch_first_ref;
+        ASSERT_EQ(*zero_inch_first_ref, *zero_inch_second_ref);
     }
 
 TEST(LengthsComparison, given_zero_inch_and_one_inch_should_return_not_equal)
     {
-        Length length;
-        Length length1(0.0, length.INCHES);
-        Length length2(1.0, length.INCHES);
-        ASSERT_FALSE(length1 == length2);
+        QuantityMeasurement quantityMeasurement1(0.0, UnitValue::INCH);
+        QuantityMeasurement quantityMeasurement2(1.0, UnitValue::INCH);
+        ASSERT_FALSE(quantityMeasurement1 == quantityMeasurement2);
     }
 
 TEST(LengthsComparison, given_three_feet_and_one_yard_should_return_equal) 
